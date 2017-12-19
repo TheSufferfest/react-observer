@@ -9,8 +9,7 @@ export function startDOMEvents(obj, cb) {
 
     // have the observer observe element for changes in children
     obs.observe(obj, { childList: true, subtree: true, attributes: true, characterData: true });
-  }
-  else if(eventListenerSupported){
+  } else if (eventListenerSupported) {
     obj.addEventListener('DOMNodeInserted', cb, false);
     obj.addEventListener('DOMNodeRemoved', cb, false);
   }
