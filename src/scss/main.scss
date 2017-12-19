@@ -1,0 +1,38 @@
+/* main observer tab */
+
+.observer-tab { width:22em; padding:1em; position:fixed; top:0; bottom:0; background:rgba(0,0,0,.5); z-index:100000000; overflow:hidden; }
+.observer-tab.left { left:0; }
+.observer-tab.right { right:0; }
+
+.observer-tab.min { width:7.4em; height:2em; padding:.4em; bottom:initial; border-radius:0 0 0 5px; }
+.observer-tab.min .observer-nodes { display:none; }
+
+/* title */
+.observer-tab h1 { font-size:1em; color:#fff; }
+.observer-tab.min h1 { display:none; }
+
+/* nodes */
+.observer-nodes { height:calc(100% - 10em); overflow-y:auto; }
+.observer-nodes p.line svg { width:1em; height:1em; margin-right:.4em; display:inline-block; fill:#999; }
+.observer-nodes p.line { font-size:.8em; text-transform:capitalize; }
+.observer-nodes p.line span.title { text-transform:capitalize; color:rgb(111, 179, 210); }
+.observer-nodes p.line span { text-transform:lowercase; }
+.observer-nodes p.line span + svg { margin-left:1em; }
+
+.observer-nodes p.line svg.good svg { fill:#999; }
+.observer-nodes p.line svg.bad svg { fill:#d73a49; }
+
+/* buttons */
+.observer-btn { width:2em; padding:.4em; position:absolute; bottom:1em; right:1em; font-size:1em; border:none; border-radius:5px; background-color:rgba(0,0,0,.5); outline:none; color:#fff; cursor:pointer; }
+.observer-btn svg { width:1em; fill:#fff; }
+.observer-btn:hover { background-color:rgba(21,204,204,1); }
+
+.observer-btn:nth-of-type(2n) { right:3.4em; }
+.observer-btn:nth-of-type(3n) { right:5.8em; }
+
+.observer-tab.min .observer-btn { top:.4em; bottom:initial; }
+
+/* graph */
+.observer-graph { width:100%; height:9em; }
+
+.observer-tab.min .observer-graph { display:none; }
