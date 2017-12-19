@@ -6,7 +6,7 @@ Monitors rendering times
 
 Clone the project:
 ```
-git clone https://github.com/kublikon/react-observer.git
+git clone https://github.com/TheSufferfest/react-observer.git
 cd react-observer
 ```
 

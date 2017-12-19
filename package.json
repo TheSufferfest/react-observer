@@ -6,11 +6,11 @@
     "Jakub Szerszen <kpx.dev@gmail.com>"
   ],
   "repository": {
-    "url": "https://github.com/kublikon/react-observer.git",
+    "url": "https://github.com/TheSufferfest/react-observer.git",
     "type": "git"
   },
   "bugs": {
-    "url": "http://github.com/kublikon/react-observer/issues"
+    "url": "http://github.com/TheSufferfest/react-observer/issues"
   },
   "main": "lib/index.js",
   "files": [
